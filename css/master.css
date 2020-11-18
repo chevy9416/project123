@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/farmacia.jpg) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login {
+  background: rgb(0, 0, 9);
+  max-width: 350px;
+  width: 100%;
+  margin: 60px auto;
+  border-radius: 5px;
+  color: #fff;
+  position: relative;
+  padding: 60px 30px;
+  box-sizing: border-box;
+}
+
+.login .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top : -50px;
+  left: calc(50% - 50px);
+}
+
+.login h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login label{
+   margin: 0;
+   padding: 0;
+   font-weight: bold;
+   display: block;
+}
+
+.login input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login input[type="text"], .login input[type="password"], .login input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  border: 1px solid #C0C0C0;
+
+  font-size: 18px;
+  border-radius: 20px;
+
+}
+
+.login input[type="submit"]:hover {
+  cursor: pointer;
+  background: #000;
+  color: #000;
+}
+
+.login .sesion a {
+  padding: 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;left: 30%;
+  color: #fff;
+
+}
+
+.login .sesion_1 a {
+  padding: 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;left: 30%;
+  top: 15px;
+  color: #fff;
+
+}
+
+.login .olv a {
+  padding: 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;left: 17%;
+  top: 20px;
+  color: #fff;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Login</title>
+    <link rel = "stylesheet" href = "css/style.css">
+  </head>
+  <body>
+
+      <div class="ing">
+
+        <img src = "img/Logo.png" class="avatar" alt "Mededicina hasta ti">
+        <h1>Llego a su destino</h1>
+        <form action="llegada.php" method="POST">
+
+          <table>
+            <tr>
+              <th>Hora de llegada</th>
+              <th>Formula</th>
+            </tr>
+            <tr>
+            <td>4:00 pm</td>
+            <td>Formula 001</td>
+            </tr>
+          </table>
+          <div class="recibo">
+            <form >
+
+              <p>Confirmar que ha recibido la totalidad del pedido solicitado.</p> <br>
+
+              <label for="nombre">Nombre</label>
+
+              <input type="text" name="nombre" placeholder="Nombre" required>
+
+              <label for="apellido">Apellido</label>
+
+              <input type="text" name="apellido" placeholder="Apellido" required>
+
+              <label for="ident">Identificación</label>
+
+              <input type="text" name="ident"placeholder="Identificación"required>
+
+              <input type="checkbox" name="confir">
+              <h6>Entrega Satisfactoria</h6>
+
+              <input type="submit"  value= "Confirmar">
+
+            </form>
+
+          </div>
+
+
+
+
+      </form>
+     </div>
+
+  </body>
+</html>

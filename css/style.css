@@ -1,0 +1,480 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/fondo.jpg) no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.log {
+  background: rgb(0, 0, 0, 0.5);
+  max-width: 1000px;
+  width: 100%;
+  margin: 80px auto;
+  border-radius: 5px;
+  color: #fff;
+  position: relative;
+  padding: 70px 80px;
+  box-sizing: border-box;
+}
+
+.log p {
+
+  line-height: 155%;
+  padding: 3%;
+  text-align: justify;
+  font-size: 20px;
+  padding: 3%;
+
+}
+
+.log .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top : -50px;
+  left: calc(50% - 50px);
+}
+
+.log h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.log h2{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.log label{
+   margin: 0;
+   padding: 0;
+   font-weight: bold;
+   display: block;
+}
+
+.log input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.log input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  border: 1px solid #C0C0C0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.log input[type="submit"]:hover {
+  cursor: pointer;
+  background: #000;
+  color: #000;
+}
+
+.log  .con a {
+  padding: 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;left: 28%;
+  border: 1px solid #C0C0C0;
+  color: #fff;
+  font-size: 20px;
+  top : 20px;
+
+}
+
+.log  .bien a {
+  padding: 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;left: 28%;
+  border: 1px solid #C0C0C0;
+  color: #fff;
+  font-size: 20px;
+  top : 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.ing {
+  background: rgb(0, 0, 7);
+  max-width: 500px;
+  width: 100%;
+  margin: 70px auto;
+  border-radius: 5px;
+  color: #fff;
+  position: relative;
+  padding: 50px 60px;
+  box-sizing: border-box;
+}
+
+.ing .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top : -50px;
+  left: calc(50% - 50px);
+}
+
+.ing h1{
+  margin: 0;
+  padding: 20px 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.ing h3{
+  margin: 0;
+  padding: 20px 0 20px;
+  text-align:left;
+  font-size: 20px;
+  margin-top: -20px;
+
+}
+
+.ing label{
+   margin: 0;
+   padding: 0;
+   font-weight: bold;
+   display: block;
+}
+
+.ing input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+
+
+.ing input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  border: 1px solid #C0C0C0;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+
+}
+
+.ing input[type="submit"]:hover {
+  cursor: pointer;
+  background: #000;
+  color: #000;
+
+}
+
+.ing input[type="text"], .ing input[type="date"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  top: 30px;
+}
+
+.ing input[type="radio"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 20px;
+  color: #fff;
+  font-size: 16px;
+  top: 2px;
+  position: relative;left: -50%;
+  margin-bottom: 300px;
+}
+
+.ing .sal a {
+  padding: 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;left: 43%;
+  top: 10px;
+  color: #fff;
+}
+
+.ing .sal_1 a {
+  padding: 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;left: 44%;
+  top: 30px;
+  color: #fff;
+}
+
+.ing .sali a {
+
+  text-decoration: none;
+  position: relative;left: 5%;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 80px;
+  border: 1px solid #C0C0C0;
+  font-size: 18px;
+  border-radius: 60px;
+  background: #fff;
+  color: #000;
+  top: 12px;
+}
+
+
+
+.log  .con  a {
+  padding: 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;left: 43%;
+  top: 15px;
+  color: #fff;
+}
+.log .vol a {
+  padding: 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;left: 43%;
+  border: 1px solid #C0C0C0;
+  color: #fff;
+  font-size: 20px;
+  top : 20px;
+}
+
+.log .vol_1 a {
+  padding: 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;left: 44%;
+  border: 1px solid #C0C0C0;
+  color: #fff;
+  font-size: 20px;
+  top : 20px;
+}
+
+.log .formulas a{
+  padding: 10px;
+  height: 40px;
+  font-size: 25px;
+  border-radius: 20px;
+  position: relative;left: 33%;
+  top: 10px;
+  color: #fff;
+
+}
+
+.ing .avatar_1 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top : 147px;
+  left: calc(30% - 50px);
+}
+
+.ing .avatar_2 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top : 490px;
+  left: calc(30% - 50px);
+}
+
+.ing .avatar_3 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top : 830px;
+  left: calc(30% - 50px);
+}
+
+.ing .formu .avatar_1 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top : 160px;
+  left: calc(30% - 50px);
+}
+
+.ing .formu .avatar_2 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top : 530px;
+  left: calc(30% - 50px);
+}
+
+.ing .formu .avatar_3 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top : 900px;
+  left: calc(30% - 50px);
+}
+
+.ing .domi {
+margin-bottom: 20px;
+}
+
+.ing .reco a {
+
+  text-decoration: none;
+  position: relative;left: 5%;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 80px;
+  border: 1px solid #C0C0C0;
+  font-size: 18px;
+  border-radius: 60px;
+  background: #fff;
+  color: #000;
+  top: 25px;
+
+}
+
+.ing .reco_1 a {
+  text-decoration: none;
+  position: relative;left: 7%;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 80px;
+  border: 1px solid #C0C0C0;
+  font-size: 18px;
+  border-radius: 60px;
+  background: #fff;
+  color: #000;
+  top: 20px;
+
+}
+
+.ing .mapa {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top : 75px;
+  left: calc(26% - 50px);
+}
+
+.ing h4{
+  margin: 0;
+
+  text-align:left;
+  font-size: 18px;
+  margin-bottom: 320px;
+
+}
+
+.ing h5{
+  margin: 0;
+  text-align:left;
+  font-size: 18px;
+  margin-top: -320px;
+}
+
+.ing .recibo {
+  background: rgba(0, 0, 100, 0.5);
+  max-width: 1000px;
+  width: 100%;
+  margin: 1px auto;
+  border-radius: 5px;
+  color: #fff;
+  position: relative;
+  padding: 10px 80px;
+  box-sizing: border-box;
+}
+
+.ing .men a {
+
+  text-decoration: none;
+  position: relative;left: 1%;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 80px;
+  border: 1px solid #C0C0C0;
+  font-size: 18px;
+  border-radius: 60px;
+  background: #fff;
+  color: #000;
+  top: 12px;
+}
+
+.ing .domi input[type="text"]{
+  border: none;
+  background: transparent;
+  outline: none;
+  height: 32px;
+  color: #fff;
+  font-size: 16px;
+  width: 80px;
+  text-align:center;
+}
+
+.ing table, td, th{
+  border: 1px solid #fff;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.ing table{
+  width: 100%;
+}
+
+.ing .recibo input[type="checkbox"]{
+  border-bottom: 1px solid #fff;
+  height: 20px;
+  color: #fff;
+  font-size: 16px;
+  position: relative;left: -50%;
+}
+
+.ing h6{
+  position: relative;left: 16%;
+  font-size: 16px;
+  top: -75px;
+  margin-bottom: -60px;
+
+}
