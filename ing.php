@@ -1,13 +1,14 @@
 
+
 <?php
 
  $host ="localhost";
  $user ="root";
- $pass ="";
- $db="prueba";
+ $pass ="root123*";
+ $db="medicina";
 
- $con = mysqli_connect($host,$user,$pass,$db)or die("Problemas al Conectar");
- mysqli_select_db($con,$db)or die("problemas al conectar con la base de datos");
+ $con = new mysqli($host,$user,$pass,$db)or die("Problemas al Conectar");
+ $con->select_db($db)or die("problemas al conectar con la base de datos");
 
  $id=$_POST['id'];
  $direccion=$_POST['direccion'];
@@ -17,10 +18,13 @@
            '$direccion',
            '$celular',
            '$fech')";
- $ejecutar=mysqli_query($con,$sql);
+ $ejecutar=$con->query($sql);
  if(!$ejecutar){
   echo"Hubo Algun Error";
  }
+
+$con->close();
+
 ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">

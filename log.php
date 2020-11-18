@@ -3,11 +3,11 @@
 
  $host ="localhost";
  $user ="root";
- $pass ="";
- $db="prueba";
+ $pass ="root123*";
+ $db="medicina";
 
- $con = mysqli_connect($host,$user,$pass,$db)or die("Problemas al Conectar");
- mysqli_select_db($con,$db)or die("problemas al conectar con la base de datos");
+ $con = new mysqli($host,$user,$pass,$db)or die("Problemas al Conectar");
+ $con->select_db($db)or die("problemas al conectar con la base de datos");
 
  $nombre=$_POST['nombre'];
  $correo=$_POST['correo'];
@@ -15,10 +15,11 @@
  $sql="INSERT INTO datos_2 VALUES('$nombre',
            '$correo',
            '$contraseña')";
- $ejecutar=mysqli_query($con,$sql);
+ $ejecutar=$con->query($sql);
  if(!$ejecutar){
   echo"Hubo Algun Error";
  }
+$con->close();
 
 ?>
 
